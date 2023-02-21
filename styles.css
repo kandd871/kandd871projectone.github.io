@@ -1,0 +1,143 @@
+body{
+	background-color: black;
+	color: white;
+	overflow-x: hidden;
+	font-family: 'VT323', monospace;
+}
+
+
+h1{
+	position: relative;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13.5vw;
+	text-align: center;
+	margin-top: 16vh;
+	z-index: 100000;
+	z-index: 1;
+	padding-left:7vw;
+	padding-right: 7vw;
+	line-height: 80%;
+	text-shadow: 0px 0px 10px #32CD32;
+}
+
+h2{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.75vw;
+	text-align: center;
+	z-index: 2;
+	margin-top: -6vh;
+	margin-bottom: 6vh;
+	text-shadow: 0px 0px 10px #32CD32;
+}
+
+a{
+	font-style: normal;
+	font-weight: 700;
+	color: limegreen;
+	text-decoration: none;
+	font-size: 3.2vw;
+	padding: .75vw;
+	border: 1px solid limegreen;
+	text-shadow: 0px 0px 2px #32CD32;
+	box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+	border-radius: 5px;
+	z-index: 0;
+	transition: .2s;
+}
+
+a:hover{
+	background-color: limegreen;
+	color: black;
+	transition: .2s;
+	z-index: 100;
+	cursor: pointer;
+}
+
+h1:hover{
+	z-index: -1;
+}
+
+.start{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.start:hover{
+	cursor: pointer;
+}
+
+#one{
+	margin-bottom: -5vh;
+}
+
+#two{
+	position: relative;
+	top: -75vh;
+	left: 33vw;
+}
+#three{
+	position: relative;
+	top: -73vh;
+	left: -33vw;
+}
+#four{
+	position: relative;
+	top: -62vh;
+	left: 20vw;
+}
+#five{
+	position: relative;
+	top: -49vh;
+	left: -22vw;
+}
+#six{
+	position: relative;
+	top: -52vh;
+	left: 38vw;
+}
+#seven{
+	position: relative;
+	top: -40vh;
+	left: -39vw;
+}
+#eight{
+	position: relative;
+	top: -40vh;
+	left: 13vw;
+}
+
+@media only screen and (max-height: 800px){
+	h1{
+		margin-top: 8vh;
+	}
+}
+
+@media only screen and (max-width: 1250px){
+	h1{
+		margin-top: 20vh;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	h1{
+		margin-top: 7vh;
+		margin-bottom: 10vh;
+		font-size: 24vw;
+	}
+	h2{
+		margin-bottom: 4vh;
+		font-size: 3vw;
+	}
+	.start:not(#one){
+		display: none;
+	}
+	a{
+		font-size: 9vw;
+		padding: 2vw;
+	}
+}
+

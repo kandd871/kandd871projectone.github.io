@@ -1,0 +1,117 @@
+.bar{
+	border-radius: 10px;
+	border: red 2px solid;
+	width: 97%;
+	height: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin:  auto;
+	margin-top: 3vh;
+	box-shadow: 0px 0px 5px 0px rgba(255,0,0,0.5);
+}
+
+.fill{
+	width: 100%;
+	height: 10px;
+	margin-right: auto;
+	border-radius: 10px;
+	background-color: red;
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-family: 'VT323', monospace;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 0px 0px 5px #FF0000;
+}
+
+.container{
+	margin-top: 12vh;
+}
+
+a{
+	font-style: normal;
+	font-weight: 700;
+	color: red;
+	text-decoration: none;
+	font-size: 4vw;
+	padding: 1vw;
+	border: 1px solid red;
+	border-radius: 5px;
+	z-index: 0;
+	transition: .2s;
+	box-shadow: 0px 0px 10px 0px rgba(255,0,0,0.5);
+}
+
+a:hover{
+	text-shadow: 0px 0px 5px #32CD32;
+	background-color: limegreen;
+	color: black;
+	border: 1px solid limegreen;
+	transition: .2s;
+	z-index: 100;
+	cursor: pointer;
+}
+
+h1{
+	color: red;
+	font-size: 6vw;
+	text-align: center;
+	animation: blink 1s steps(2, start) infinite;
+}
+
+p{
+	font-size: 2vw;
+	line-height: 80%;
+	width: 60%;
+	margin-left: auto;
+  	margin-right: auto;
+ 	display: block;
+}
+
+.button{
+	margin-top: 10vh;
+ 	display: block;
+ 	text-align: center;
+ 	margin-bottom: 10vh;
+}
+
+@keyframes blink{
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 700px){
+
+	.container{
+		margin-left: 6vw;
+		margin-right: 6vw;
+	}
+
+	.bar{
+		width: 95%;
+	}
+
+	h1{
+		font-size: 10vw;
+	}
+
+	p{
+		font-size: 4vw;
+		line-height: 90%;
+	}
+	a{
+		font-size: 9vw;
+		padding: 2vw;
+	}
+}
