@@ -76,7 +76,7 @@ footer{
 	font-size: 1vw;
 	margin-bottom: 2vh;
 	text-align: center;
-	position:  relative;
+	position:  absolute;
 	bottom: 0;
 	right: 0;
 	left: 0;
@@ -123,5 +123,6 @@ footer > a:hover{
 
 	footer{
 		font-size: 2vw;
+		position: relative;
 	}
 	}
