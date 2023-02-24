@@ -1,5 +1,6 @@
 var audio = document.getElementById("audio");
 var pp = document.getElementById("pp")
+var footer = document.querySelector("footer")
 
 function shake(){
      audio.play();

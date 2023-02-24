@@ -127,9 +127,10 @@ footer > a:hover{
 
 
 	.buttons>a{
-		font-size: 11vw;
+		font-size: 9vw;
 		padding: 3vw;
 		line-height: 90%;
+		margin-bottom: 2.5vh;
 	}
 
 

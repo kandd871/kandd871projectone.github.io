@@ -178,7 +178,7 @@ footer > a:hover{
 	to{
 		font-size: 10vw;
 		width: 120%;
-		margin-left: -4vw;
+		margin-left: -4.5vw;
 	}
 }
 
@@ -198,6 +198,7 @@ footer > a:hover{
 
 	footer{
 		font-size: 2vw;
+		margin-bottom: 2vh;
 	}
 
 	}
@@ -224,6 +225,7 @@ footer > a:hover{
 	#pull{
 	animation: pull1 15s linear forwards;
 	animation-delay: 5s;
+	line-height: 90%;	
 	}
 
 	footer{

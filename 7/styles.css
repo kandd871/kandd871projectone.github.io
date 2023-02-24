@@ -139,12 +139,14 @@ footer > a:hover{
 	.buttons{
 		margin-left: 9vw;
 		margin-right: 9vw;
+		margin-bottom: 10vh;
 	}
 
 	.buttons > a{
 		font-size: 7vw;
 		padding: 3vw;
 	}
+
 
 	p{
 		font-size: 5vw;
@@ -154,5 +156,6 @@ footer > a:hover{
 
 	footer{
 		font-size: 2vw;
+		position: relative;
 	}
 }

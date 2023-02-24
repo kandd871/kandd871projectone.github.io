@@ -130,6 +130,11 @@ footer > a:hover{
 		font-size: 12vw;
 		padding: 3vw;
 	}
+
+	.go{
+		margin-bottom: 10vh;
+	}
+
 	p{
 		font-size: 5vw;
 		line-height: 90%;
@@ -138,5 +143,6 @@ footer > a:hover{
 
 	footer{
 		font-size: 2vw;
+		position:  relative;
 	}
 }

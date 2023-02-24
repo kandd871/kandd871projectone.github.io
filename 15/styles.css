@@ -146,6 +146,7 @@ footer > a:hover{
 		text-align: left;
 		margin-left: 10vw;
 		margin-right: 10vw;
+		margin-bottom: 10vh;
 	}
 
 	p{
@@ -156,5 +157,6 @@ footer > a:hover{
 
 	footer{
 		font-size: 2vw;
+		position: relative;
 	}
 }

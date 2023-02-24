@@ -60,6 +60,7 @@ p{
 .go{ 
  	display: block;
  	text-align: center;
+ 	margin-top: 6vh;
 }
 
 .go>a:hover{

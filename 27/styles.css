@@ -171,6 +171,9 @@ footer > a:hover{
 		line-height: 90%;
 	}
 
+	.click{
+		display: none;
+	}
 
 	p{
 		font-size: 5vw!important;
@@ -181,8 +184,10 @@ footer > a:hover{
 	.buttons{
 		margin-left: 10vw;
 		margin-right: 10vw;
+		margin-bottom: 20vh;
 	}
 
 	footer{
 		font-size: 2vw;
+		position: relative;
 	}
