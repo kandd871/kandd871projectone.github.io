@@ -47,6 +47,14 @@ p{
  	animation: up 2s linear forwards;
 }
 
+a:active{
+	background-color: limegreen;
+	color: black;
+	transition: .2s;
+	z-index: 100;
+	cursor: pointer;
+}
+
 
 .buttons > a{
 	font-style: normal;
@@ -133,3 +141,26 @@ footer > a:hover{
 		margin-top: 10vh;
 	}
 	}
+
+	@media only screen and (max-width: 400px){
+
+	.text{
+		margin-top: 10vh;
+	}
+
+	.buttons > a{
+		font-size: 12vw;
+		padding: 3vw;
+		margin: 8%;
+	}
+
+	p{
+		font-size: 5vw;
+		line-height: 90%;
+		width: 75%;
+	}
+
+	footer{
+		font-size: 2vw;
+	}
+}

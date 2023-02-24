@@ -114,3 +114,27 @@ p{
 		padding: 2vw;
 	}
 }
+@media only screen and (max-width: 400px){
+	.container{
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+
+	h1{
+		font-size: 12vw;
+	}
+
+	p{
+		font-size: 6vw;
+		line-height: 90%;
+		width: 75%;
+	}
+
+	a{
+		font-size: 13vw;
+		padding: 3vw;
+	}
+	.button{
+		margin-top: 8vh;
+	}
+}

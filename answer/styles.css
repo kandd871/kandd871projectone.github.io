@@ -132,7 +132,7 @@ footer > a:hover{
 
 @media only screen and (max-width: 600px){
 	.text{
-		margin-top: 10vh;
+		margin-top: 12.5vh;
 	}
 	button,.go>a{
 		font-size: 6vw;
@@ -165,4 +165,31 @@ footer > a:hover{
 		margin-top: 57vh;
 		margin-bottom: 2vh;
 	}
+	}
+
+	@media only screen and (max-width: 400px){
+
+	.text,.text1{
+		width: 75%;
+	}
+
+	.go>a{
+		font-size: 7.5vw;
+		padding: 3vw;
+		line-height: 90%;
+	}
+
+
+	p{
+		font-size: 5vw!important;
+		line-height: 90%;	
+	}
+
+	#pull{
+	animation: pull1 15s linear forwards;
+	animation-delay: 5s;
+	}
+
+	footer{
+		font-size: 2vw;
 	}

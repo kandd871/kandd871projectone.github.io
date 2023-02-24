@@ -97,3 +97,31 @@ a:hover{
 		margin-bottom: 8vh;
 	}
 	}
+
+	@media only screen and (max-width: 400px){
+
+	.text{
+		margin-top: 10vh;
+		margin-bottom: -5vh;
+	}
+
+	.buttons{
+		margin-left: 9vw;
+		margin-right: 9vw;
+	}
+
+	.buttons > a{
+		font-size: 7vw;
+		padding: 3vw;
+	}
+
+	p{
+		font-size: 5vw;
+		line-height: 90%;
+		width: 75%;
+	}
+
+	footer{
+		font-size: 2vw;
+	}
+}

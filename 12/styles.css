@@ -111,3 +111,23 @@ footer > a:hover{
 		font-size: 2vw;
 	}
 	}
+
+@media only screen and (max-width: 400px){
+
+
+
+	.go>a{
+		font-size: 12vw;
+		padding: 3vw;
+	}
+
+	p{
+		font-size: 5vw;
+		line-height: 90%;
+		width: 75%;
+	}
+
+	footer{
+		font-size: 2vw;
+	}
+}

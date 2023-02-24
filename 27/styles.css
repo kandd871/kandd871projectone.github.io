@@ -29,6 +29,11 @@ body{
 
 }
 
+
+html:active{
+	animation: shake 0.5s forwards;
+}
+
 .click{
 	position: relative;
 	top: 0vh;
@@ -43,6 +48,10 @@ audio{
 
 .text{
 	margin-top: 20vh;
+}
+
+#pp{
+	animation-iteration-count: 1;
 }
 
 p{
@@ -106,10 +115,26 @@ footer > a:hover{
 	border-radius: 4px;
 }
 
+@keyframes shake{
+	 0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    99% { transform: translate(1px, -2px) rotate(-1deg);}
+    100% { transform: translate(0px, 0px) rotate(0deg); 
+}
+}
+
 @media only screen and (max-width: 600px){
 
 	.text{
-		margin-top: 10vh;
+		margin-top: 12.5vh;
 	}
 
 	.buttons>a{
@@ -129,10 +154,35 @@ footer > a:hover{
 
 	p{
 		font-size: 4vw;
-		margin-bottom: 8vh;
+		margin-bottom: 4vh;
 	}
 
 	footer{
 		font-size: 2vw;
 	}
+	}
+
+	@media only screen and (max-width: 400px){
+
+
+	.buttons>a{
+		font-size: 10vw;
+		padding: 3vw;
+		line-height: 90%;
+	}
+
+
+	p{
+		font-size: 5vw!important;
+		line-height: 90%;	
+		width: 75%;
+	}
+
+	.buttons{
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+
+	footer{
+		font-size: 2vw;
 	}

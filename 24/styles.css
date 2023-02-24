@@ -167,9 +167,24 @@ footer > a:hover{
 	}
 }
 
+
+@keyframes pull1{
+	from {
+		font-size: 5vw;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	to{
+		font-size: 10vw;
+		width: 120%;
+		margin-left: -4vw;
+	}
+}
+
 @media only screen and (max-width: 600px){
 	.text{
-		margin-top: 10vh;
+		margin-top: 12.5vh;
 	}
 	button,.go>a{
 		font-size: 7vw;
@@ -178,10 +193,39 @@ footer > a:hover{
 
 	p{
 		font-size: 4vw;
+		margin-bottom: 4vh;
 	}
 
 	footer{
 		font-size: 2vw;
 	}
 
+	}
+
+	@media only screen and (max-width: 400px){
+
+	.text,.text1{
+		width: 75%;
+	}
+
+	.go>a{
+		font-size: 12vw;
+		padding: 3vw;
+		margin-bottom: 10vh;
+		line-height: 90%;
+	}
+
+
+	p:not(#pull){
+		font-size: 5vw!important;
+		line-height: 90%;	
+	}
+
+	#pull{
+	animation: pull1 15s linear forwards;
+	animation-delay: 5s;
+	}
+
+	footer{
+		font-size: 2vw;
 	}

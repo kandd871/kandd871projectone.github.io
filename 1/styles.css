@@ -50,6 +50,15 @@ body{
 	justify-content: center;
 }
 
+a:active{
+	background-color: limegreen;
+	color: black;
+	transition: .2s;
+	z-index: 100;
+	cursor: pointer;
+}
+
+
 footer{
 	font-size: 1vw;
 	margin-bottom: 2vh;
@@ -91,3 +100,12 @@ footer > a:hover{
 	}
 
 	}
+
+@media only screen and (max-width: 400px){
+
+	.hang > a{
+		font-size: 12vw;
+		padding: 3vw;
+	}
+
+}

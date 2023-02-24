@@ -29,6 +29,15 @@ a:hover{
 	cursor: pointer;
 }
 
+a:active{
+	background-color: limegreen;
+	color: black;
+	transition: .2s;
+	z-index: 100;
+	cursor: pointer;
+}
+
+
 h1{
 	font-size: 6vw;
 	color: limegreen;
@@ -61,5 +70,29 @@ p{
 	a{
 		font-size: 9vw;
 		padding: 2vw;
+	}
+}
+
+
+@media only screen and (max-width: 400px){
+	body{
+		margin-left: 6vw;
+		margin-right: 6vw;
+	}
+
+	h1{
+		font-size: 12vw;
+	}
+
+	p{
+		font-size: 6vw;
+		line-height: 90%;
+	}
+	a{
+		font-size: 13vw;
+		padding: 3vw;
+	}
+	.button{
+		margin-top: 8vh;
 	}
 }

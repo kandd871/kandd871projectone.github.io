@@ -94,7 +94,7 @@ footer > a:hover{
 @media only screen and (max-width: 600px){
 
 	.text{
-		margin-top: 10vh;
+		margin-top: 12.5vh;
 	}
 
 	.buttons>a{
@@ -121,4 +121,29 @@ footer > a:hover{
 	footer{
 		font-size: 2vw;
 	}
+	}
+
+	@media only screen and (max-width: 400px){
+
+
+	.buttons>a{
+		font-size: 11vw;
+		padding: 3vw;
+		line-height: 90%;
+	}
+
+
+	p{
+		font-size: 5vw!important;
+		line-height: 90%;	
+		width: 75%;
+	}
+
+	.buttons{
+		margin-left: 12vw;
+		margin-right: 12vw;
+	}
+
+	footer{
+		font-size: 2vw;
 	}
